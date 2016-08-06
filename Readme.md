@@ -1,7 +1,7 @@
 # Личный проект «Седона»
 
 * Студент: [Алексей Белятко](https://up.htmlacademy.ru/htmlcss/14/user/231905).
-* Наставник: `Неизвестно`.
+* Наставник: [Владимир Меркулов](https://htmlacademy.ru/profile/straniks)
 
 ---
 
