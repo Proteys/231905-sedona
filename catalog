@@ -1,0 +1,58 @@
+    <!DOCTYPE html>
+    <html lang="ru">
+    <head>
+        <meta charset="UTF-8">
+        <title>Sedona - бронирование гостиниц</title>
+    </head>
+    <body>
+        <header class="main-header">
+            <div class="container">
+                <nav class="main-navigation">
+                    <a class="sedona-logo" href="index.html"><img src="http://placehold.it/150x100">
+                    <ul>
+                        <li>
+                            <a href="#">Информация</a>
+                        </li>
+                        <li>
+                            <a href="#">Фото и видео</a>
+                        </li>
+                        <li>
+                            <a href="#">Карта штата</a>
+                        </li>
+                        <li>
+                            <a href="#">Гостиницы</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+        <section class="search-hotels">
+            <div class="container">
+                <div class="background-filter clearfix">
+                    <form class="sedona-form2" action="/echo" method="post">
+                        <div class="left-filter-column clearfix">
+                            <div class="left-filter">
+                                <h3>Инфраструктура</h3>
+                                <input type="checkbox" id="pool"  name="place" value="" checked>
+                                <label for="pool">Бассейн</label><br>
+                                <input type="checkbox" id="parking" name="place" value="">
+                                <label for="parking">Парковка</label><br>
+                                <input type="checkbox" id="wi-fi" name="place" value="">
+                                <label for="wi-fi">Wi-fi</label>
+                            </div>
+                            <div class="right-filter">
+                                <h3>Тип жилья</h3>
+                                <input type="checkbox" id="hotel"  name="hotel" value="" checked>
+                                <label for="hotel">Гостиница</label><br>
+                                <input type="checkbox" id="motel" name="motel" value="" checked>
+                                <label for="motel">Мотель</label><br>
+                                <input type="checkbox" id="apartments" name="appartments" value="" checked>
+                                <label for="apartments">Апартаменты</label><br>
+                            </div>
+                        </div>
+                        <div class="right-filter-column">
+                            <h3 class="coast-tittle">Стоимость в сутки (Р):</h3>
+                                <div class="search-coast">
+
+
+
